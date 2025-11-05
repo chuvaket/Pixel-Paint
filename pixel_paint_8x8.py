@@ -13,10 +13,6 @@ line = [f'{Back.BLUE}  ',
         f'{Back.LIGHTGREEN_EX}   {Back.RESET}']
 
 
-yellow = 'yellow'
-
-# print(yellow)
-
 def paint(color):
     if int(pixel_list[0]) == len(line):
         img[int(pixel_list[1])-1][int(pixel_list[0])-1] = f'{Back.__getattribute__(color.upper())}   ' + f'{Back.RESET}'
@@ -31,7 +27,6 @@ def fill(color, img):
             line[i-1] = f'{Back.__getattribute__(color.upper())}  '
     img = [line[:], line[:], line[:], line[:], line[:], line[:], line[:], line[:]]
     return img
-
 
 
 img = [line[:],
@@ -112,4 +107,5 @@ while True:
                 case "magenta":
                     fill(color)
                 case "cyan":
+
                    fill(color)
