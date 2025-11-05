@@ -1,3 +1,5 @@
+You have only 8 x 8 pixel for your drawings! / Для ваших рисунков у вас есть только 8 x 8 пикселей!
+
 ENG
 
 To run, download and run the exe file, or paste the python code into your editor and run it.
