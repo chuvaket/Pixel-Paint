@@ -16,6 +16,9 @@ You can also use the "fill" command to fill the entire space.
 Example: "Enter pixel(x y color): fill red" will fill the entire space with red.
 Note: The fill command fills the entire space without preserving the pixels you have already filled.
 
+If you need to exit the program, you can do it directly in the console using the "exit" command.
+Example: "Enter pixel(x y color): exit"
+
 
 
 РУС/RUS
@@ -35,3 +38,6 @@ magenta
 Также вы можете использовать команду "fill" для заполнения всего пространства.
 Пример: "Запишите пиксель(x y color): fill red" -- закрасит все пространство в красный.
 Примечание: команда fill закрашивает все пространство не сохраняя уже закрашенные вами пиксели
+
+Если вам необходимо выйти из прграммы, то можно сделать это прямо в консоли, команду "exit".
+Пример: "Запишите пиксель(x y color): exit"
