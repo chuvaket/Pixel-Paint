@@ -1,4 +1,5 @@
 from colorama import Back
+import os
 
 # если добавлять новые функции по типу "fill" и они состоят из 2-х слов то надо проверять оба слова как слитное одно
 # типа "fill square" -> "fillsquare", т.к. удаление на пробелов
@@ -66,6 +67,7 @@ img = [line[:],
 
 
 while True:
+    os.system("cls")
     for line in img:
         print(*line, end='\n')
 
@@ -139,3 +141,4 @@ while True:
                         paint(color)
         else: 
             continue
+
