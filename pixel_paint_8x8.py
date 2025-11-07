@@ -1,4 +1,5 @@
 from colorama import Back
+import os
 
 # if you add new functions like "fill" and they consist of two words, you need to check both words as a single word
 # like "fill square" -> "fillsquare", because removing spaces
@@ -66,6 +67,7 @@ img = [line[:],
 
 
 while True:
+    os.system('cls')
     for line in img:
         print(*line, end='\n')
 
@@ -139,3 +141,4 @@ while True:
                         paint(color)
         else: 
             continue
+
